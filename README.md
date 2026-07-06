@@ -59,22 +59,6 @@
 ddd
 ```
 
-## 校验
-
-Windows PowerShell：
-
-```powershell
-Get-FileHash .\armbian-debian13.5.iso -Algorithm SHA256
-```
-
-Debian / Linux：
-
-```bash
-sha256sum armbian-debian13.5.iso
-```
-
-校验值一致后再写入 U 盘或安装到磁盘。
-
 ## 默认信息
 
 安装器 Debian Live 系统：
@@ -97,4 +81,4 @@ Web 地址: 接好网线后查看屏幕提示
 - 写盘或安装会覆盖目标磁盘数据，操作前请确认磁盘。
 - ISO 镜像请放在 GitHub Releases，不要直接提交到 Git 仓库。
 - 仓库只保存说明、许可证和忽略规则。
-- 如果重新制作 ISO，请同步更新 Release 附件和校验信息。
+- 如果重新制作 ISO，请同步更新 Release 附件。
