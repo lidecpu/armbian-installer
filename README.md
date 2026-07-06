@@ -73,8 +73,7 @@ ddd
 安装器 Debian Live 系统：
 
 ```text
-用户: root
-密码: 1234
+直接进入 root 环境，无需输入密码
 ```
 
 安装后的 Debian 13.5 系统：
