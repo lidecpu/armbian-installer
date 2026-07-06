@@ -17,14 +17,6 @@
 
 主要改动是把安装器底层 Debian Live 环境更新为 Debian 13.5，并保留原安装器的使用方式：启动 ISO 后，通过安装菜单把系统写入目标磁盘。
 
-## 下载
-
-ISO 文件不放在 Git 仓库里，请从 GitHub Releases 下载：
-
-```text
-https://github.com/lidecpu/armbian-installer/releases
-```
-
 ## 适用场景
 
 | 场景 | 用法 |
@@ -84,11 +76,3 @@ Web 地址: 接好网线后查看屏幕提示
 - ISO 镜像请放在 GitHub Releases，不要直接提交到 Git 仓库。
 - 仓库只保存说明、许可证和忽略规则。
 - 如果重新制作 ISO，请同步更新 Release 附件和校验信息。
-
-## 项目来源
-
-本仓库基于以下 ISO 修改，当前版本主要更新为 Debian 13.5：
-
-```text
-https://github.com/wukongdaily/img-installer/releases/tag/Armbian-Installer-x86_64-ISO
-```
