@@ -1,22 +1,22 @@
 # Armbian Installer Debian 13.5
 
-这是基于 wukongdaily 的 Armbian Installer x86_64 ISO 修改的 Debian 13.5 版本。
+它是一个基于 Debian Live 系统制作的 img 镜像安装器。采用 GitHub Action 构建打包，目前实现了在 x86-64 设备上快速安装 Debian 13.5 的功能。
 
-主要改动是把安装器底层 Debian Live 环境更新为 Debian 13.5，使用方式保持原 Armbian 安装器逻辑。
+本仓库基于 wukongdaily 的 Armbian Installer x86_64 ISO 修改，主要改动是把安装器底层 Debian Live 环境更新为 Debian 13.5。
 
 ## 下载
 
-ISO 文件不放在 Git 仓库里，请从 GitHub Releases 下载：
+ISO 文件不放在 Git 仓库里，发布后会放在 GitHub Releases 附件中：
 
 https://github.com/lidecpu/armbian-installer/releases
 
-当前 ISO 文件：
+本地待发布 ISO 文件：
 
 ```text
 armbian-debian13.5.iso
 ```
 
-文件大小：
+本地文件大小：
 
 ```text
 611,983,360 bytes
