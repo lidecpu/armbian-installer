@@ -1,6 +1,6 @@
 # Armbian Installer Debian 13.5
 
-它是一个基于 Debian Live 系统制作的 img 镜像安装器。采用 GitHub Action 构建打包，目前实现了在 x86-64 设备上快速安装 Debian 13.5 的功能。
+它是一个基于 Debian Live 系统制作的 img 镜像安装器，目前实现了在 x86-64 设备上快速安装 Debian 13.5 的功能。
 
 本仓库基于 wukongdaily 的 Armbian Installer x86_64 ISO 修改，主要改动是把安装器底层 Debian Live 环境更新为 Debian 13.5。
 
@@ -85,7 +85,7 @@ Web 地址: 接好网线后查看屏幕提示
 
 ## 说明
 
-- 仓库只保存脚本、说明和构建配置。
+- 仓库只保存说明、许可证和忽略规则。
 - ISO 镜像请放在 GitHub Releases，不要直接提交到 Git。
 - 如果重新制作 ISO，请同步更新文件名、大小和 SHA256。
 - 写盘或安装会覆盖目标磁盘数据，操作前请确认目标磁盘。
