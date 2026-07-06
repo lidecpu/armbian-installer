@@ -1,1 +1,6 @@
 **/output
+*.iso
+*.img
+*.qcow2
+*.vmdk
+*.sha256
